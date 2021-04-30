@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD59B2D62630B319009CAA05 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59B2D42630B319009CAA05 /* TableViewCell.swift */; };
+		AD59B2D72630B319009CAA05 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD59B2D52630B319009CAA05 /* TableViewCell.xib */; };
+		AD59B2DD2630BF75009CAA05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59B2DB2630BF75009CAA05 /* DetailViewController.swift */; };
+		AD59B2DE2630BF75009CAA05 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD59B2DC2630BF75009CAA05 /* DetailViewController.xib */; };
 		ADD2BC13262B311200345F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2BC12262B311200345F59 /* AppDelegate.swift */; };
 		ADD2BC15262B311200345F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2BC14262B311200345F59 /* SceneDelegate.swift */; };
 		ADD2BC17262B311200345F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2BC16262B311200345F59 /* ViewController.swift */; };
@@ -14,9 +18,16 @@
 		ADD2BC1D262B311200345F59 /* SeatGeekExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADD2BC1B262B311200345F59 /* SeatGeekExample.xcdatamodeld */; };
 		ADD2BC1F262B311400345F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD2BC1E262B311400345F59 /* Assets.xcassets */; };
 		ADD2BC22262B311400345F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD2BC20262B311400345F59 /* LaunchScreen.storyboard */; };
+		ADD2BC2D262B355B00345F59 /* EventItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2BC2C262B355B00345F59 /* EventItem.swift */; };
+		ADE98F1A26390C97007D47A0 /* Seatgeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F1926390C97007D47A0 /* Seatgeek.swift */; };
+		ADF2AF4C263A415000D19C82 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2AF4B263A415000D19C82 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD59B2D42630B319009CAA05 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AD59B2D52630B319009CAA05 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		AD59B2DB2630BF75009CAA05 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD59B2DC2630BF75009CAA05 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		ADD2BC0F262B311200345F59 /* SeatGeekExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatGeekExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD2BC12262B311200345F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADD2BC14262B311200345F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,9 @@
 		ADD2BC1E262B311400345F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD2BC21262B311400345F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADD2BC23262B311400345F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD2BC2C262B355B00345F59 /* EventItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItem.swift; sourceTree = "<group>"; };
+		ADE98F1926390C97007D47A0 /* Seatgeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seatgeek.swift; sourceTree = "<group>"; };
+		ADF2AF4B263A415000D19C82 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,9 @@
 		ADD2BC11262B311200345F59 /* SeatGeekExample */ = {
 			isa = PBXGroup;
 			children = (
+				AD59B2D42630B319009CAA05 /* TableViewCell.swift */,
+				AD59B2D52630B319009CAA05 /* TableViewCell.xib */,
+				ADD2BC2B262B354800345F59 /* Data Classes */,
 				ADD2BC12262B311200345F59 /* AppDelegate.swift */,
 				ADD2BC14262B311200345F59 /* SceneDelegate.swift */,
 				ADD2BC16262B311200345F59 /* ViewController.swift */,
@@ -66,8 +83,20 @@
 				ADD2BC20262B311400345F59 /* LaunchScreen.storyboard */,
 				ADD2BC23262B311400345F59 /* Info.plist */,
 				ADD2BC1B262B311200345F59 /* SeatGeekExample.xcdatamodeld */,
+				AD59B2DB2630BF75009CAA05 /* DetailViewController.swift */,
+				AD59B2DC2630BF75009CAA05 /* DetailViewController.xib */,
+				ADE98F1926390C97007D47A0 /* Seatgeek.swift */,
 			);
 			path = SeatGeekExample;
+			sourceTree = "<group>";
+		};
+		ADD2BC2B262B354800345F59 /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ADD2BC2C262B355B00345F59 /* EventItem.swift */,
+				ADF2AF4B263A415000D19C82 /* Event.swift */,
+			);
+			path = "Data Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD2BC22262B311400345F59 /* LaunchScreen.storyboard in Resources */,
+				AD59B2D72630B319009CAA05 /* TableViewCell.xib in Resources */,
+				AD59B2DE2630BF75009CAA05 /* DetailViewController.xib in Resources */,
 				ADD2BC1F262B311400345F59 /* Assets.xcassets in Resources */,
 				ADD2BC1A262B311200345F59 /* Main.storyboard in Resources */,
 			);
@@ -141,9 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD2BC17262B311200345F59 /* ViewController.swift in Sources */,
+				ADF2AF4C263A415000D19C82 /* Event.swift in Sources */,
 				ADD2BC1D262B311200345F59 /* SeatGeekExample.xcdatamodeld in Sources */,
 				ADD2BC13262B311200345F59 /* AppDelegate.swift in Sources */,
 				ADD2BC15262B311200345F59 /* SceneDelegate.swift in Sources */,
+				AD59B2D62630B319009CAA05 /* TableViewCell.swift in Sources */,
+				ADD2BC2D262B355B00345F59 /* EventItem.swift in Sources */,
+				ADE98F1A26390C97007D47A0 /* Seatgeek.swift in Sources */,
+				AD59B2DD2630BF75009CAA05 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
