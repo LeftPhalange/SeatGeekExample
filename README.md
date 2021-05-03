@@ -8,7 +8,7 @@ Open the SeatGeekExample.xcodeproj in the root directory using Xcode (tested wit
 ## What works?
 
 - Searching based on event (token-based)
-- Fetching and deserialziing JSON data and presenting it in a pleasing way
+- Fetching and deserializing JSON data and presenting it in a pleasing way
 
 ## What can be improved
 
